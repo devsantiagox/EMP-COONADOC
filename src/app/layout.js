@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Nav from "./components/Nav/Nav";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -23,6 +24,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
+        <Nav />
+        {/* <Sci /> */}
         {children}
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
