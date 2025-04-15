@@ -482,7 +482,7 @@ a:hover {
 
 .btn.btn-a,
 .btn.btn-b {
-  border-radius: 0;
+  border-radius: 10px;
   padding: 1rem 3rem;
   letter-spacing: 0.05rem;
 }
